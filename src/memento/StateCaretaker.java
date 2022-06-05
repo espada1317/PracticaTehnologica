@@ -15,11 +15,8 @@ public class StateCaretaker {
         {
             mementoHistory.put(stateID, memento);
         }
-
         maxStateID++;
         currentStateID = maxStateID;
-
-        System.out.println(currentStateID + "+++++++++++++" + maxStateID);
     }
 
     public Memento getMemento(int stateID)

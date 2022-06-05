@@ -1,5 +1,5 @@
 package proxy;
 
-public interface ThirdPartyEcryptionLib {
+public interface ThirdPartySaveState {
     public void performSaveTempOperation(String nameCipher, String keyInputField, String privateKeyInputField, String encryptInput, String decryptInput);
 }

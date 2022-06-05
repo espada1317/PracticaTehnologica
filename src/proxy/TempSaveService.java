@@ -3,7 +3,7 @@ package proxy;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class TempSaveService implements ThirdPartyEcryptionLib{
+public class TempSaveService implements ThirdPartySaveState {
 
     @Override
     public void performSaveTempOperation(String nameCipher, String keyInputField, String privateKeyInputField, String encryptInput, String decryptInput) {

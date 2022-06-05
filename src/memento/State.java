@@ -15,10 +15,6 @@ public class State {
         this.stateID = stateID;
     }
 
-    public int getStateID() {
-        return  stateID;
-    }
-
     public CipherClass getCipherName() {
         return cipherName;
     }
@@ -28,17 +24,9 @@ public class State {
         return this;
     }
 
-    public String getPublicKey() {
-        return publicKey;
-    }
-
     public State setPublicKey(String publicKey) {
         this.publicKey = publicKey;
         return this;
-    }
-
-    public String getPrivateKey() {
-        return privateKey;
     }
 
     public State setPrivateKey(String privateKey) {
@@ -46,17 +34,9 @@ public class State {
         return this;
     }
 
-    public String getEncryptInput() {
-        return encryptInput;
-    }
-
     public State setEncryptInput(String encryptInput) {
         this.encryptInput = encryptInput;
         return this;
-    }
-
-    public String getDecryptInput() {
-        return decryptInput;
     }
 
     public State setDecryptInput(String decryptInput) {

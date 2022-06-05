@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class LogSaveService implements ThirdPartyEcryptionLib{
+public class LogSaveService implements ThirdPartySaveState {
     private TempSaveService tempSaveService;
 
     public LogSaveService(TempSaveService tempSaveService) {
